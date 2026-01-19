@@ -1,0 +1,171 @@
+/* color declarations */
+:root {
+    --main-color: #83888F;
+    --secondary-color: #FEFCF7;
+    --accent-color: #0E8784;
+    --white-color: #FEFCF7;
+    --white-color-2: #FFFFFF;
+    --background-color:#2C343E;
+}
+/* body properties */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white-color-2);
+}
+/* selectors font family */
+body p button a {
+    font-family: 'barlow';
+}
+/* header properties */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+    padding-left: 81px;
+}
+/* list header properties */
+.liste-header {
+    display: flex;
+    gap: 33px;
+    padding-right: 81px;
+
+}
+/* list header properties link*/
+.liste-header li a {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--main-color);
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 0.92px;
+}
+/* list header properties link hover */
+.liste-header li a:hover {
+    color: var(--accent-color);
+}
+/* main class properties */
+.main-container {
+  background-image: url("/dossier%20assets/bitmap.png");
+  background-repeat: no-repeat;
+  background-size: cover;        
+  margin-top: 44px;
+  margin-left: 80px;
+  margin-bottom: 92px;
+  margin-right: 80px;
+  padding: 117px 165px 116px 165px;
+}
+/* main container h1 properties */
+.main-container h1 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    color: var(--secondary-color);
+    margin: 0;
+}
+/* main container p properties */
+.main-container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--secondary-color);
+    max-width: 445px;
+}
+/* main container button properties */
+.main-container button {
+    margin-top: 32px;
+    background-color: var(--accent-color);
+    border: none;
+    color: var(--white-color);
+    padding: 15px 30px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 15px 31px 16px;
+    margin-top: 117px;
+    margin-bottom: 116px;
+}
+/* main container button hover properties */
+.main-container button:hover {
+    background-color: #66D2D1;
+    cursor: pointer;
+    color: var(--main-color);
+}
+/* main-container-2 properties */
+.main-container-2 {
+    background-color: var(--background-color);
+    margin: 0 80px;
+    padding: 100px 165px 350px; /* 👈 INCREASE THIS */
+    text-align: center;
+    position: relative;
+}
+/* main-container-2 h2 properties */
+.main-container-2 h2 {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--white-color-2);}
+/* main-container-2 p properties */
+.main-container-2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white-color-2);
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+/* card properties */
+.cards {
+    position: absolute;
+    left: 165px;
+    right: 165px;
+    bottom: -86px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+/* card properties */
+.card {
+    background-color: var(--accent-color);
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+    text-align: center;
+}
+/* card image properties */
+.card img {
+    display: block;
+    margin: 72px auto 56px;
+}
+/* card h3 properties */
+.card h3 {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--white-color);
+    margin-bottom: 24px;
+}
+/* card p properties */
+.card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white-color-2);
+    padding-bottom: 48px; /* ← removed extra px */
+}
+/* footer properties */
+.footer {
+    background-color: var(--background-color);
+    padding: 40px 80px;
+    margin-top: 168px;
+    margin-bottom: 88px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
